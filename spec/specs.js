@@ -5,6 +5,7 @@ describe("Pizza", function() {
         testPizza.topping = 0;
         testPizza.pizzaSize = 0;
         testPizza.delivery = 0;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(6);
     });
   });
@@ -15,6 +16,7 @@ describe("Pizza", function() {
         testPizza.topping = 1;
         testPizza.pizzaSize = 0;
         testPizza.delivery = 0;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(7);
     });
   });
@@ -25,6 +27,7 @@ describe("Pizza", function() {
         testPizza.topping = 2;
         testPizza.pizzaSize = 0;
         testPizza.delivery = 0;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(8);
     });
   });
@@ -35,6 +38,7 @@ describe("Pizza", function() {
         testPizza.topping = 2;
         testPizza.pizzaSize = 1;
         testPizza.delivery = 0;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(10);
     });
   });
@@ -45,6 +49,7 @@ describe("Pizza", function() {
         testPizza.topping = 2;
         testPizza.pizzaSize = 2;
         testPizza.delivery = 0;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(12);
     });
   });
@@ -55,6 +60,7 @@ describe("Pizza", function() {
         testPizza.topping = 2;
         testPizza.pizzaSize = 2;
         testPizza.delivery = 1;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(15);
     });
   });
@@ -65,7 +71,19 @@ describe("Pizza", function() {
         testPizza.topping = 2;
         testPizza.pizzaSize = 2;
         testPizza.delivery = 5;
+        testPizza.addPizza = 1;
         expect(testPizza.priceCalc()).to.eql(27);
+    });
+  });
+
+  describe("priceCalc()", function() {
+    it("returns the pizza price of 4 pizzas: topping = Sausage, size = 16, delivery = Ship", function() {
+        var testPizza = Object.create(Pizza);
+        testPizza.topping = 2;
+        testPizza.pizzaSize = 2;
+        testPizza.delivery = 5;
+        testPizza.addPizza = 4;
+        expect(testPizza.priceCalc()).to.eql(108);
     });
   });
 });
