@@ -11,25 +11,33 @@
     <div class="container">
       <div class="row">
         <form id="pizza-cost">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <h3>Choose Your Topping</h3>
-            <select>
+            <select id="topping">
               <option value="0">Cheese</option>
               <option value="1">Pepperoni</option>
               <option value="2">Italian Sausage</option>
             </select>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <h3>Choose Your Size</h3>
-            <select>
-              <option value="0">Personal Pan Pizza</option>
-              <option value="1">12" Chicago Style Deep Dish Pizza</option>
-              <option value="2">16" Chicago Style Deep Dish Pizza</option>
+            <select id="size">
+              <option value="0">Personal Pan</option>
+              <option value="1">12"</option>
+              <option value="2">16"</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <h3>Choose Delivery Option</h3>
+            <select id="delivery">
+              <option value="0">Take out</option>
+              <option value="1">Delivery</option>
+              <option value="5">Ship it to me.</option>
             </select>
           </div>
           <div class="row">
             <div class="col-md-4 col-md-offset-4">
-              <button type="submit" class="btn btn-primary">Place Order.</button>
+              <button type="submit" class="btn btn-warning" id="order">Place Order.</button>
             </div>
           </div>
         </form>
