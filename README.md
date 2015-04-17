@@ -4,10 +4,19 @@
 Description:
 
 # SetUp and Use
-In order to use this program you will need a browser...NOT IE!
+In order to use this program you will need a browser.
 
 SetUp
-1.
+
+1. Open Terminal/Console and type 'https://github.com/evanb2/Assessment6.git'
+
+2. Open the Assessment6 folder.
+
+3. Open the 'pizza-delivery.html' file in your web browser.
+
+4. Follow instructions on the site.
+
+5. Eat pizza.
 
 # Copyright (c) 2015 Evan Butler.
 
