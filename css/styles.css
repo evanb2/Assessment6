@@ -4,9 +4,10 @@
 
 .jumbotron {
   text-align: center;
-  /*background-image: url("http://www.loumalnatis.com/resources/assets/images/logo2x.png");
+  color: #FFFFCC;
+  background-image: url("http://www.loumalnatis.com/filebin/images/slideshow/slide-pull-1.jpeg");
   background-size: cover;
-  padding-bottom: 200px;*/
+  /*padding-bottom: 200px;*/
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 }
 
 .col-md-3 {
-  border-radius: 500px;
+  border-radius: 20px;
   width: 250px;
   background-color: #CC3300;
   padding-bottom: 50px;
