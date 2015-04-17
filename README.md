@@ -1,5 +1,5 @@
-# Name:
-# Date:
+# Name: Evan Butler.
+# Date: April 17th, 2015.
 
 Description:
 
@@ -9,7 +9,7 @@ In order to use this program you will need a browser...NOT IE!
 SetUp
 1.
 
-# Copyright (c) 2015 (Name)
+# Copyright (c) 2015 Evan Butler.
 
 # The MIT License (MIT)
 
