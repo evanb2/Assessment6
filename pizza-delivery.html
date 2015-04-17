@@ -53,7 +53,7 @@
 
           <div class="row">
             <div class="col-md-4 col-md-offset-4">
-              <button type="submit" class="btn btn-primary" id="order">Place Order</button>
+              <button type="submit" class="btn btn-primary" id="order">View Total</button>
             </div>
           </div>
         </form>
@@ -67,7 +67,24 @@
         </center>
       </div>
 
-      <p>Note: If you think Old Chicago is "good pizza" please leave this site now, you are not worthy.</p>
+      <div class="show-customer-form col-md-offset-4">
+        <form id="customer-form">
+          <h3>Order Form</h3>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+          <input type="text" name="phone" id="phone" class="form-control" placeholder="000-000-0000" required>
+          <input type="text" name="address" id="address" class="form-control" placeholder="Address" required>
+          <input type="text" name="city" id="city" class="form-control" placeholder="City" required>
+          <input type="text" name="zipcode" id="zipcode" class="form-control" placeholder="Zip Code" required>
+          <select><option value=0>Cash</option><option value=1>Credit</option></select>
+          <button type="submit" class="btn btn-success" id="order-btn">Place Order</button>
+        </form>
+      </div>
+
+      <div class="show-order">
+        <p>Thank You for your order <strong><span class="customer-name"></span></strong>! Your pie is on its way.</p>
+      </div>
+
+      <p id="note">Note: If you think Old Chicago is "good pizza" please leave this site now, you are not worthy.</p>
 
     </div>
   </body>

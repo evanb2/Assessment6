@@ -24,5 +24,17 @@ $(document).ready(function(event) {
     var pizzaPrice = newPizza.priceCalc();
 
     $(".result").text("$ " + pizzaPrice + ".00");
+    $(".show-customer-form").show();
+
+    $("form#customer-form").submit(function(event) {
+      event.preventDefault();
+      $("form#customer-form").hide();
+      var fullname = $("#name").val();
+
+      $(".customer-name").text(fullname);
+      $(".show-order").show();
+      $("form#pizza-cost").hide();
+      $("#note").hide();
+    });
   });
 });
