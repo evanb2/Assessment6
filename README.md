@@ -1,7 +1,7 @@
 # Name: Evan Butler.
 # Date: April 17th, 2015.
 
-Description:
+Description: A mock site for Lou Malnati's pizza, user can choose from several different options in the dropdown menus as well as a delivery method, followed by an order form, and a thank you screen. Created for the Week 8 assessment at Epicodus.
 
 # SetUp and Use
 In order to use this program you will need a browser.
