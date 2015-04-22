@@ -8,7 +8,7 @@ In order to use this program you will need a browser.
 
 SetUp
 
-1. Open Terminal/Console and type 'https://github.com/evanb2/Assessment6.git'
+1. Open Terminal/Console and type: 'git clone https://github.com/evanb2/Assessment6.git'
 
 2. Open the Assessment6 folder.
 
